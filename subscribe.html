@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Subscribe</title>
+  <!-- Add your CSS link here -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        background-image: url(1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover ;
+  
+        }
+
+    </style>
+  <form id="subscribeForm" method="post" action="file.php" style="opacity: 0.8;">
+    <input type="hidden" name="form_id" value="subscribeForm">
+    <label for="name"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required >
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required >
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required >
+
+    <label for="cpsw"><b>Confirm Password</b></label>
+    <input type="password" placeholder="Confirm Password" name="cpsw" required >
+
+    <label for="mobile"><b>Mobile Number</b></label>
+    <input type="text" placeholder="Enter Mobile Number" name="mobile" required >
+
+    <button type="submit" name="register">Subscribe</button>
+    <a href="login.html">Already have an account? Login</a>
+  </form>
+
+</body>
+</html>
