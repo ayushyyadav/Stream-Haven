@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <!-- Add your CSS link here -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+          display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        background-image: url(1.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        }
+    </style>
+
+   
+
+  <form id="loginForm" method="post" action="file.php" style="opacity: 0.8;>
+    <input type="hidden" name="form_id" value="loginForm">
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" name="login">Login</button>
+    <a href="forgot_password.html">Forgot password?</a>
+  </form>
+
+ 
+</body>
+</html>
